@@ -12,7 +12,7 @@ const AnotherSec = () => {
 
                     <p className='text-justify my-5'>Get instant helpful resources about anything on the go, easily implement secure money transfer solutions, boost your daily efficiency, connect to other app users and create your own network, and much more with just a few taps. commodo consequat. Duis aute irure.</p>
 
-                    <button className='btn btn-primary hover:btn-accent hover:text-white rounded-md text-white'>Get Started</button>
+                    <button className='btn btn-primary rounded-md text-white'>Get Started</button>
 
                 </div>
 

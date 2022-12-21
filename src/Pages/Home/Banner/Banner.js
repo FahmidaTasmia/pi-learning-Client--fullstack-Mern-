@@ -41,7 +41,7 @@ const Banner = () => {
             </p>
 
            <p>
-           <button className='btn  btn-primary hover:btn-accent hover:text-white rounded-sm gap-2 text-white'><AiOutlineDownload className='text-lg font-bold'></AiOutlineDownload> DownLoad Content</button>
+           <button className='btn  btn-primary  rounded-sm gap-2 text-white'><AiOutlineDownload className='text-lg font-bold'></AiOutlineDownload> DownLoad Content</button>
            </p>
             </div>
 
