@@ -1,8 +1,11 @@
 import React from 'react';
 import { BsBook,BsClockHistory,BsEye } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const CourseDetail = ({course}) => {
-    const{title,name,Image,tImage,teacher,Price,view,time,detail}=course
+    const{title,name,Image,tImage,teacher,Price,view,time,detail,_id}=course;
+    // console.log(course);
+
     return (
         <div>
            <div className=" ">
@@ -16,7 +19,7 @@ const CourseDetail = ({course}) => {
                                 <div className="pb-4 ltr:pl-4 rtl:pr-4 flex items-center">
                                    <img src={tImage} alt="" className="h-12 w-12 rounded-full shadow-md  mx-auto" />
                                     <div className="ltr:ml-3 rtl:mr-3">
-                                        <a href="course" className="font-semibold text-white block">{teacher}</a>
+                                        <Link to={`/course/${_id}`} className="font-semibold text-white block">{teacher}</Link>
                                         <span className="text-white/70 text-sm">Professor</span>
                                     </div>
                                 </div>
@@ -25,7 +28,7 @@ const CourseDetail = ({course}) => {
 
                         <div className="content p-6 relative">
                             <a href="course" className="text-lg block text-primary">{name}</a>
-                            <a href="course" className="text-lg font-medium block hover:text-primary duration-500 ease-in-out mt-2">{title}</a>
+                            <Link to={`/course/${_id}`} className="text-lg font-medium block hover:text-primary duration-500 ease-in-out mt-2">{title}</Link>
                             <p className="text-slate-400 mt-3 mb-4">{detail.slice(0,100)}...</p>
                             
                             <ul className="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400">

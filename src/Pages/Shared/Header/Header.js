@@ -4,16 +4,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const menuItems = <React.Fragment>
     <li><Link to="/">Home</Link></li>
+   
     <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/about">About</Link></li>
     <li><Link to="/contact">Contact</Link></li>
- 
-    {/* {user?.uid ?
-        <>
-          
-            <li><button onClick={handleLogOut}>Sign out</button></li>
-        </>
-        : <li><Link to="/login">Login</Link></li>} */}
+    
 </React.Fragment>
     return (
         <div className="navbar  text-primary font-bold flex justify-between">
