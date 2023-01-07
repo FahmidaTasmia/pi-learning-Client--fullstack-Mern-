@@ -2,6 +2,7 @@ import React from 'react';
 import { BsBook,BsClockHistory,BsEye } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
+
 const CourseDetail = ({course}) => {
     const{title,name,Image,tImage,teacher,Price,view,time,detail,_id}=course;
     // console.log(course);
@@ -27,7 +28,7 @@ const CourseDetail = ({course}) => {
                         </div>
 
                         <div className="content p-6 relative">
-                            <a href="course" className="text-lg block text-primary">{name}</a>
+                            <Link to={`/course/${_id}`} className="text-lg block text-primary">{name}</Link>
                             <Link to={`/course/${_id}`} className="text-lg font-medium block hover:text-primary duration-500 ease-in-out mt-2">{title}</Link>
                             <p className="text-slate-400 mt-3 mb-4">{detail.slice(0,100)}...</p>
                             
