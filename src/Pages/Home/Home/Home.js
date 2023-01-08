@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Courses from '../../Course/Courses/Courses';
+import Pricing from '../../Course/Pricing/Pricing';
 import AnotherSec from '../AnotherSec/AnotherSec';
 import Banner from '../Banner/Banner';
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Courses></Courses>
             <Team></Team>
             <AnotherSec></AnotherSec>
+            <Pricing></Pricing>
            
         </div>
     );

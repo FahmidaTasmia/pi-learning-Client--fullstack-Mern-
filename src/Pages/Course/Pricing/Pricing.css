@@ -1,0 +1,42 @@
+
+  
+  .pricing-check::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 25px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #44ce6f;
+  }
+  
+  .pricing-check {
+    line-height: 35px;
+  }
+  
+  .pricing-minus::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 25px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #111;
+  }
+  .pricing-minus {
+    line-height: 35px;
+  }
+  
+  .price-btn {
+    background: #44ce6f;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+  }
+  .price-btn:hover {
+    background-color: #969696;
+    color: #fff;
+    transition: background 0.5s;
+  }

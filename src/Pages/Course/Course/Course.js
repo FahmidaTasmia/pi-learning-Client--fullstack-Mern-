@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { BsDownload, BsFillCircleFill } from "react-icons/bs";
 import Content from '../Content/Content';
@@ -6,7 +6,7 @@ import ReactToPdf from "react-to-pdf";
 const Course = () => {
   const ref = React.createRef();
     const courseDetail = useLoaderData();
-    const{title,name,Image,tImage,teacher,detail,detail2,details,Li1,Li2,Li3,Li4}=courseDetail;
+    const{name,Image,tImage,teacher,detail,detail2,details,Li1,Li2,Li3,Li4}=courseDetail;
     // console.log(courseDetail);
     return (
         <div ref={ref}>

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import image from '../../../Asset/bg.jpg'
+
 import Typewriter from 'typewriter-effect';
 import { AiOutlineDownload } from "react-icons/ai";
-import './Banner.css'
+
 import Lottie from 'lottie-web';
 const Banner = () => {
     
