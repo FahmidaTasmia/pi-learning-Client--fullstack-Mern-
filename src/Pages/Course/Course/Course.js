@@ -17,7 +17,7 @@ const Course = () => {
                   <div >
                     <h1 className="mb-5 text-5xl font-bold">{name}</h1>
                     <div className='flex gap-5 justify-center'>
-                      <p><img className='rounded-full w-20 h-20' src={tImage} alt="#" /></p>
+                      <p><img className='rounded-full w-20 h-20 ' src={tImage} alt="#" /></p>
                       <p className='self-center'>{teacher}</p>
                       
                     </div>
@@ -40,12 +40,19 @@ const Course = () => {
                 <p className='my-5 text-justify'>{detail2}</p>
                 <p className='text-justify'>{details}</p>
                 <div>
+                  <h2 className='text-xl font-bld mt-3'>WHAT YOU WILL LEARN:</h2>
                         <ul >
                           <li className='flex gap-3 my-3 '><BsFillCircleFill className='self-center'></BsFillCircleFill>{Li1}</li>
                           <li className='flex gap-3 mb-3 '><BsFillCircleFill className='self-center'></BsFillCircleFill>{Li2}</li>
                           <li className='flex gap-3 mb-3 '><BsFillCircleFill className='self-center'></BsFillCircleFill>{Li3}</li>
                           <li className='flex gap-3 mb-3'><BsFillCircleFill className='self-center'></BsFillCircleFill>{Li4}</li>
                         </ul>
+                    </div>
+                    
+                    <div className='mt-8 grid grid-cols-2 gap-8'>
+
+                    <img className='rounded-md'  src="https://i.ibb.co/kMPKJcp/thisisengineering-raeng-sz-Aaw9-Xo2lk-unsplash.jpg" alt="#" />
+                    <img className='rounded-md'  src="https://i.ibb.co/kMPKJcp/thisisengineering-raeng-sz-Aaw9-Xo2lk-unsplash.jpg" alt="#" />
                     </div>
 
                     <div>

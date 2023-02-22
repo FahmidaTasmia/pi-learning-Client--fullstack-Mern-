@@ -19,10 +19,10 @@ const Banner = () => {
      
     },[])
     return (
-        <div className=' '>
+        <div className='bg-[#edf8f5]  md:border-t md:border-t-primary rounded-b-md '>
            <div className='grid  md:grid-cols-2'>
             {/* //text-content */}
-            <div className='mx-auto self-center md:p-0 px-5' >
+            <div className='mx-auto self-center md:px-10 px-5' >
             <h2 className='text-2xl  md:text-3xl lg:text-4xl font-bold '>Complete Your Dream 
                 <h2 className='text-primary mt-2'>
                 <Typewriter 
