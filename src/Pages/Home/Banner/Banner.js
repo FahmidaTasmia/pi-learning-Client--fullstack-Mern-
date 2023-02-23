@@ -19,7 +19,7 @@ const Banner = () => {
      
     },[])
     return (
-        <div className='bg-[#edf8f5]  md:border-t md:border-t-primary rounded-b-md '>
+        <div className='bg-gradient-to-r from-transparent to-indigo-600/10 md:border-t md:border-t-primary rounded-b-md '>
            <div className='grid  md:grid-cols-2'>
             {/* //text-content */}
             <div className='mx-auto self-center md:px-10 px-5' >

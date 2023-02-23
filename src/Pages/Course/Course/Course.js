@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import { BsDownload, BsFillCircleFill } from "react-icons/bs";
 import Content from '../Content/Content';
 import ReactToPdf from "react-to-pdf";
+import Pricing from '../Pricing/Pricing';
 const Course = () => {
   const ref = React.createRef();
     const courseDetail = useLoaderData();
@@ -15,7 +16,7 @@ const Course = () => {
                 <div className="hero-overlay bg-opacity-70"></div>
                 <div className="hero-content text-center text-neutral-content">
                   <div >
-                    <h1 className="mb-5 text-5xl font-bold">{name}</h1>
+                    <h1 className="mb-5 md:text-5xl text-2xl font-bold">{name}</h1>
                     <div className='flex gap-5 justify-center'>
                       <p><img className='rounded-full w-20 h-20 ' src={tImage} alt="#" /></p>
                       <p className='self-center'>{teacher}</p>
@@ -55,10 +56,13 @@ const Course = () => {
                     <img className='rounded-md'  src="https://i.ibb.co/kMPKJcp/thisisengineering-raeng-sz-Aaw9-Xo2lk-unsplash.jpg" alt="#" />
                     </div>
 
-                    <div>
+                    <div >
                       <Content></Content>
                     </div>
               </div>
+             <div className='my-12'>
+             <Pricing></Pricing>
+             </div>
         </div>
     );
 };

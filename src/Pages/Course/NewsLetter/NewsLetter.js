@@ -3,8 +3,8 @@
 
   function NewsLetter() {
     return (
-     <div className='md:w-[85%] mx-auto relative top-10 shadow-lg'>
-       <div className='grid md:grid-cols-2 bg-gray-100 border-l-4 border-l-primary rounded-md md:py-5'>
+     <div className='my-12 '>
+       <div className='grid md:grid-cols-2 bg-gradient-to-r from-transparent to-indigo-600/10 border-l-4 border-l-primary rounded-md md:py-5'>
         <div>
           <img src="https://i.ibb.co/BqmQK4f/undraw-Voice-interface-re-206s-removebg-preview.png" alt="" />
         </div>

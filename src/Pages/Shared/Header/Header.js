@@ -11,7 +11,7 @@ const Header = () => {
     
 </React.Fragment>
     return (
-        <div className="navbar md:top[-70] relative bg-[#edf8f5]  text-primary font-bold flex justify-between">
+        <div className="navbar md:top[-70] relative bg-gradient-to-r from-transparent to-indigo-600/10 text-primary font-bold flex justify-between">
         <div className="navbar-start">
         <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
