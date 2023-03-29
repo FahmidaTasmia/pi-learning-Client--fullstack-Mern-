@@ -11,6 +11,7 @@ import spotify from '../../Asset/spotify.svg'
 import Team from '../Home/Team/Team';
 import Expert from './Expert';
 import Features from './Features';
+import Testimonial from './Testimonial';
 
 const About = () => {
     
@@ -47,19 +48,16 @@ const About = () => {
        </div>
        {/* //team */}
        <div className='md:mt-12'></div>
-       <div>
        <Team></Team>
-       </div>
        <div className='md:mt-24'></div>
-       <div>
-        
-        <Features></Features>
-       </div>
+       <Features></Features>
        <div className='md:mt-24'></div>
-       <div>
-        
-        <Expert></Expert>
-       </div>
+
+       <Expert></Expert>
+
+       <Testimonial></Testimonial>
+
+       
        </div>
 
 

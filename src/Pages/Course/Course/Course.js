@@ -52,8 +52,8 @@ const Course = () => {
                     
                     <div className='mt-8 grid grid-cols-2 gap-8'>
 
-                    <img className='rounded-md'  src="https://i.ibb.co/kMPKJcp/thisisengineering-raeng-sz-Aaw9-Xo2lk-unsplash.jpg" alt="#" />
-                    <img className='rounded-md'  src="https://i.ibb.co/kMPKJcp/thisisengineering-raeng-sz-Aaw9-Xo2lk-unsplash.jpg" alt="#" />
+                    <img className='rounded-md'  src="https://i.ibb.co/YW5pBtf/charlesdeluvio-Lks7vei-e-Ag-unsplash.jpg" alt="#" />
+                    <img className='rounded-md'  src="https://i.ibb.co/YW5pBtf/charlesdeluvio-Lks7vei-e-Ag-unsplash.jpg" alt="#" />
                     </div>
 
                     <div >

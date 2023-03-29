@@ -4,8 +4,6 @@ import About from "../Pages/About/About";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import Course from "../Pages/Course/Course/Course";
-import CourseDetail from "../Pages/Course/CourseDetail/CourseDetail";
-
 import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Shared/Login/Login";

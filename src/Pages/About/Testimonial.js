@@ -1,11 +1,13 @@
 import React from 'react'
 
-function Blog() {
+
+
+function Testimonial() {
   return (
     <div>
-      
+    
     </div>
   )
 }
 
-export default Blog
+export default Testimonial

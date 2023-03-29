@@ -1,4 +1,5 @@
 import React from 'react';
+import Expert from '../../About/Expert';
 
 import Courses from '../../Course/Courses/Courses';
 import NewsLetter from '../../Course/NewsLetter/NewsLetter';
@@ -19,7 +20,10 @@ const Home = () => {
             <Team></Team>
             <AnotherSec></AnotherSec>
             <Pricing></Pricing>
-
+            <div className='pb-10 pt-20'>
+            <Expert></Expert>
+            </div>
+           
             <NewsLetter></NewsLetter>
            
         </div>

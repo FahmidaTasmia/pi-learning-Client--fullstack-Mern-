@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Lottie from 'lottie-web';
+import { Link } from 'react-router-dom';
 const Banner = () => {
     
     const container =useRef(null)
@@ -41,7 +42,7 @@ const Banner = () => {
             </p>
 
            <p>
-           <button className='btn  btn-primary  rounded-sm gap-2 text-white'><AiOutlineDownload className='text-lg font-bold'></AiOutlineDownload> DownLoad Content</button>
+           <Link to='/login' className='btn  btn-primary  rounded-sm gap-2 text-white'><AiOutlineDownload className='text-lg font-bold'></AiOutlineDownload> DownLoad Content</Link>
            </p>
             </div>
 
