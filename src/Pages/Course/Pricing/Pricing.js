@@ -8,7 +8,7 @@ const Pricing = () => {
   console.log("From",toggle);
   const toggleClass = " transform translate-x-5";
     return (
-        <div className='my-5 text-center'>
+        <div className='my-5 text-center' data-aos="fade-up">
             <h2 className='text-2xl md:text-4xl mb-3 '>Our Pricing Plan</h2>
             <h2 className='text-2xl font-bold'>Find The Plan That's Right for You</h2>
 

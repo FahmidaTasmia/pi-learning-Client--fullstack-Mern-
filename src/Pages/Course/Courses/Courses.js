@@ -11,7 +11,7 @@ const Courses = () => {
     },[])
     return (
        <div>
-        <div className='text-center md:text-4xl '>
+        <div className='text-center md:text-4xl ' data-aos="fade-up">
             <h2>Our Latest Courses</h2>
             <h4>Decide which course is best for you.</h4>
         </div>

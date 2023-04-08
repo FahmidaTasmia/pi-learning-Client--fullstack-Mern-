@@ -5,7 +5,7 @@ const Team = () => {
     return (
         <div className='mx-14 mb-12'>
             <div className='grid md:grid-cols-2'>
-            <div className=" grid grid-cols-2 md:gap-5 gap-2">
+            <div className=" grid grid-cols-2 md:gap-5 gap-2" data-aos="fade-up-right">
                 <div className='grid gap-5'>
                     <img src="https://i.ibb.co/7rppggw/ab03.jpg" alt="" />
                     <img src="https://i.ibb.co/JkzvdK3/ab02.jpg" alt="" />
@@ -15,7 +15,7 @@ const Team = () => {
                     <img src="https://i.ibb.co/MZwBdKR/ab01.jpg" alt="" />
                 </div>
             </div>
-                <div className="m-auto align-middle md:mx-12 ">
+                <div className="m-auto align-middle md:mx-12 " data-aos="fade-up-left">
                <div className='flex'>
                <span className='font-bold text-primary'><span className='text-6xl font-bold text-primary'>15</span>+</span>
               <div className='mt-5 mx-2 font-bold'>

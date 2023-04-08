@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Expert() {
   return (
-    <div className='mb-12'>
+    <div className='mb-12' data-aos="fade-up">
       <h3 className='text-center md:text-3xl text-2xl mb-3'>Our Dedicated Team</h3>
       <p className='text-center text-lg mb-6'>Start working with <span className='text-primary text-xl'>piLearning</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
       <div className='grid md:grid-cols-4 grid-cols-2 gap-5 px-3'>

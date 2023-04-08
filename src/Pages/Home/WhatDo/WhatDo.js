@@ -3,12 +3,12 @@ import React from 'react';
 const WhatDo = () => {
     return (
         <div className='lg:mb-12 md:pb-8 pb-5'>
-            <div className='text-center lg:py-8 py-3 lg:mb-8'>
+            <div className='text-center lg:py-8 py-3 lg:mb-8' data-aos="fade-right">
             <h2 className='md:text-4xl text-2xl my-3'>What We do?</h2>
             <p>Create, collaborate, and turn your ideas into incredible products with the <br /> definitive platform for digital design.</p>
             </div>
 
-            <div className='grid gap-5 md:gap-8 md:grid-cols-4 mx-5  text-center'>
+            <div className='grid gap-5 md:gap-8 md:grid-cols-4 mx-5  text-center' data-aos="fade-up">
             <div className="grid rounded-md hover:bg-primary transition duration-700 ease-in-out 
                        transform 
                        hover:-translate-y-1 hover:scale-105 text-black   hover:text-white shadow-sm bg-gray-100 py-8 md:py-16 px-1  place-items-center">

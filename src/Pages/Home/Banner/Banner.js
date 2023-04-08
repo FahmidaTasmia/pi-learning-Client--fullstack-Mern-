@@ -23,7 +23,7 @@ const Banner = () => {
         <div className='bg-gradient-to-r from-transparent to-indigo-600/10 md:border-t md:border-t-primary rounded-b-md '>
            <div className='grid  md:grid-cols-2'>
             {/* //text-content */}
-            <div className='mx-auto self-center md:px-10 px-5' >
+            <div className='mx-auto self-center md:px-10 px-5'  >
             <h2 className='text-2xl  md:text-3xl lg:text-4xl font-bold '>Complete Your Dream 
                 <h2 className='text-primary mt-2'>
                 <Typewriter 
@@ -37,7 +37,7 @@ const Banner = () => {
                 </h2>
             </h2>
 
-            <p className='text-justify my-4 md:text-lg text-sm'>
+            <p className='text-justify my-4 md:text-lg text-sm'  data-aos="fade-right">
             Learning is a life-long journey that in fact we never find the terminate  stop. Stop searching, enjoy the process.
             </p>
 

@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBsyJEIRmz7zgOgL6KGUf6TaqVOm6ZmIIg",
-  authDomain: "pilearning-client.firebaseapp.com",
-  projectId: "pilearning-client",
-  storageBucket: "pilearning-client.appspot.com",
-  messagingSenderId: "976860105843",
-  appId: "1:976860105843:web:8500f94792b06f5ba06e06"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase

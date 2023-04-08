@@ -9,7 +9,7 @@ const CourseDetail = ({course}) => {
 
     return (
         <div>
-           <div className=" ">
+           <div className=" " data-aos="zoom-in-up">
                   
                     <div className="group relative rounded-md shadow hover:shadow-lg  duration-500 ease-in-out overflow-hidden">
                         <div className="relative overflow-hidden">
