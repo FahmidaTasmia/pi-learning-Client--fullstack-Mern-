@@ -7,7 +7,9 @@ import Course from "../Pages/Course/Course/Course";
 import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Shared/Login/Login";
-import Register from "../Pages/Shared/Register/Register";
+import Register from "../Pages/Shared/Login/Register";
+
+
 
 const router = createBrowserRouter([
     {
@@ -18,16 +20,6 @@ const router = createBrowserRouter([
            {
             path:'/',
             element:<Home></Home>
-           },
-
-           {
-            path:'/login',
-            element:<Login></Login>
-
-           },
-           {
-            path:'/register',
-            element:<Register></Register>
            },
 
            {
@@ -49,7 +41,17 @@ const router = createBrowserRouter([
             element:<Course></Course>,
             loader:({params})=>fetch(`https://learning-platform-server-gold.vercel.app/course/${params.id}`)
 
+           },
+
+           {
+            path:'/login',
+            element:<Login></Login>
+           },
+           {
+            path:'/register',
+            element:<Register></Register>
            }
+
         ]
     }
 ]);
