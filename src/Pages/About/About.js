@@ -12,12 +12,13 @@ import Team from '../Home/Team/Team';
 import Expert from './Expert';
 import Features from './Features';
 import Testimonial from './Testimonial';
+import useTitle from '../../hooks/useTitle';
 
 const About = () => {
-    
+    useTitle('About')
     return (
        <div>
-        <div className='mb-12 border-t border-t-primary rounded-sm'>
+        <div className='mb-12 border-t border-t-primary rounded-sm' data-aos="zoom-in">
         <div className="relative table w-full py-36 lg:py-44 bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${background})` }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className='container z-30'>
@@ -37,7 +38,7 @@ const About = () => {
        
        </div>
        {/* //brand */}
-       <div className='grid md:grid-cols-6 grid-cols-3 gap-3 py-5 px-5 md:px-10 m-auto'>
+       <div className='grid md:grid-cols-6 grid-cols-3 gap-3 py-5 px-5 md:px-10 m-auto' data-aos="zoom-in-up">
         <div><img className='w-20 h-20' src={amazone} alt="" /></div>
         <div><img className='w-20 h-20' src={google} alt="" /></div>
         <div><img className='w-20 h-20' src={lenovo} alt="" /></div>

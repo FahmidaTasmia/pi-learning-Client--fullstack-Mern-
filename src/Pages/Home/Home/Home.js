@@ -9,8 +9,10 @@ import Banner from '../Banner/Banner';
 
 import Team from '../Team/Team';
 import WhatDo from '../WhatDo/WhatDo';
+import useTitle from './../../../hooks/useTitle';
 
 const Home = () => {
+    useTitle('Home')
     return (
         <div>
             <Banner></Banner>

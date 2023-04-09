@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 function Features() {
   return (
     <div className='bg-[#f9fafb] rounded-md md:py-24 py-16 my-16'>
-      <div className='text-center'>
+      <div className='text-center' data-aos="fade-right">
         <h3 className='text-3xl'>Key Features</h3>
         <p className='text-lg my-3 text-gray-500'>Start working with <span className='text-primary font-semibold'>piLearning</span> Team that can provide everything you need to <br /> generate awareness, drive traffic, connect.</p>
       </div>
       {/* //grid-col */}
       <div className='my-8'>
         <div className='my-16'></div>
-      <div className='grid md:grid-cols-3 grid-cols-1 gap-5 md:mx-8 mx-3 '>
+      <div className='grid md:grid-cols-3 grid-cols-1 gap-5 md:mx-8 mx-3 ' data-aos="fade-up">
       <div className="flex gap-3 transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
                         <div className="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full ltr:mr-3 rtl:ml-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-monitor h-5 w-5 rotate-45"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>

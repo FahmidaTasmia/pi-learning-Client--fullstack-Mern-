@@ -3,12 +3,13 @@ import { useContext } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
+import useTitle from '../../../hooks/useTitle';
 
 
 
 
 const Register = () => {
-
+  useTitle('Register')
   const{createUser}=useContext(AuthContext);
   const[error,setError]=useState(' ');
 
@@ -38,7 +39,7 @@ const Register = () => {
     return (
        
         <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-        <div className="relative py-3 sm:max-w-xl sm:mx-auto">
+        <div className="relative py-3 sm:max-w-xl sm:mx-auto" data-aos="zoom-in-up">
             <div
                 className="absolute inset-0 bg-gradient-to-r from-[#b2c4e9] to-[#4b6bfb] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
             </div>

@@ -1,18 +1,20 @@
 import React from 'react';
 import { BsPhone } from 'react-icons/bs';
 import { TfiEmail, TfiLocationPin } from 'react-icons/tfi';
+import useTitle from '../../hooks/useTitle';
 
 const Contact = () => {
+    useTitle('Contact')
     return (
         <div className='grid grid-cols-2'>
-            <div className='m-auto'>
+            <div className='m-auto' data-aos="fade-up-right">
                 <h2 className='font-bold text-2xl lg:text-4xl tracking-wider'>GET IN TOUCH !</h2>
                 <p className='my-2'>Fill in the form to start a conversation</p>
                 <p className='flex gap-2'><TfiLocationPin className='self-center text-xl'></TfiLocationPin> Sylhet, Bangladesh</p>
                 <p className='flex gap-2 my-2'><BsPhone className='self-center text-xl'></BsPhone>+8801789368876</p>
                 <p className='flex gap-2'><TfiEmail className='self-center text-xl'></TfiEmail >tasmia@gmail.com</p>
             </div>
-            <div className='p-10 shadow-sm my-10 border-gray-50 border'>
+            <div className='p-10 shadow-sm my-10 border-gray-50 border' data-aos="fade-up-left">
             <form className=" scale-90">
                     <div className="form-control">
                         <label className="label">
